@@ -18,7 +18,7 @@
 #define Z_H_ADDR					0x2D
 
 #define CTRL_REG_4					0x20
-#define ENABLE_XYZ					0x67
+#define ENABLE_XYZ					0x77
 #define CTRL_REG_5					0x24
 
 

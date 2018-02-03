@@ -397,7 +397,7 @@ void Accelero_Init(Sensitivity_t Sens){
 	//Register to be written to
 	TxBuff[0] = CTRL_REG_4;
 	//Default to enable XYZ and 2G Sensitivity
-	TxBuff[1] = ENABLE_XYZ;	//(0x67)
+	TxBuff[1] = ENABLE_XYZ;
 
 	HAL_GPIO_WritePin(MEMS_PORT, MEMS_PIN, GPIO_PIN_RESET);
 
